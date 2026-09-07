@@ -1,10 +1,10 @@
 name: autofdo CI
 
 on:
-  push:
-    branches: [ $default-branch ]
-  pull_request:
-    types: [opened, reopened, synchronize]
+  # push:
+  #   branches: [ $default-branch ]
+  # pull_request:
+  #   types: [opened, reopened, synchronize]
 
   # Manual trigger using the Actions page.
   workflow_dispatch:
